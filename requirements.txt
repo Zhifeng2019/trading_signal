@@ -1,0 +1,27 @@
+# Core numerical
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+
+# Market data
+yfinance>=0.2.28
+
+# Macro data (optional – FRED_API_KEY env var required)
+fredapi>=0.5.1
+
+# Wavelet decomposition (optional but recommended)
+PyWavelets>=1.4
+
+# Machine learning utilities (used for PCA / cross-asset analysis)
+scikit-learn>=1.3
+
+# Visualisation
+matplotlib>=3.7
+seaborn>=0.12
+
+# Jupyter (for demo notebook)
+jupyter>=1.0
+ipykernel>=6.0
+
+# Optional: interactive plotting
+plotly>=5.15
